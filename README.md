@@ -15,62 +15,63 @@ Samples: 569
 
  **Tools and Libraries Used**
  
-Python 3.x
+1.Python 3.x
 
-Pandas – Data handling and preprocessing
+2.Pandas – Data handling and preprocessing
 
-Scikit-learn – Logistic Regression model, evaluation metrics
+3.Scikit-learn – Logistic Regression model, evaluation metrics
 
-Matplotlib – Data visualization
+4.Matplotlib – Data visualization
 
 **Task Steps**
 
-Import and Preprocess the Dataset
+1.Import and Preprocess the Dataset
 
-Loaded dataset from Kaggle CSV file.
+  Loaded dataset from Kaggle CSV file.
 
-Dropped unnecessary columns (id, Unnamed: 32).
+  Dropped unnecessary columns (id, Unnamed: 32).
 
-Encoded target column (M → 1, B → 0).
+  Encoded target column (M → 1, B → 0).
 
-Train-Test Split
+2.Train-Test Split
 
-Split data into 80% training and 20% testing sets using train_test_split.
+  Split data into 80% training and 20% testing sets using train_test_split.
 
-Feature Standardization
+3.Feature Standardization
 
-Applied StandardScaler to normalize features.
+  Applied StandardScaler to normalize features.
 
-Fit the Logistic Regression Model
+4.Fit the Logistic Regression Model
 
-Trained the model using LogisticRegression from Scikit-learn.
+  Trained the model using LogisticRegression from Scikit-learn.
 
-Evaluate the Model
+5.Evaluate the Model
 
-Calculated Confusion Matrix.
+  Calculated Confusion Matrix.
 
-Generated Classification Report with precision, recall, and F1-score.
+  Generated Classification Report with precision, recall, and F1-score.
 
-Plotted ROC Curve and calculated AUC score.
+  Plotted ROC Curve and calculated AUC score.
 
-Threshold Tuning
+6.Threshold Tuning
 
-Modified decision threshold from the default 0.5 to observe changes in classification performance.
+  Modified decision threshold from the default 0.5 to observe changes in classification performance.
 
-Sigmoid Function Explanation
+7.Sigmoid Function Explanation
 
-Plotted the sigmoid function to visualize how Logistic Regression maps values to probabilities.
+  Plotted the sigmoid function to visualize how Logistic Regression maps values to probabilities.
 
  **How to Run**
-Download the dataset from Kaggle and save it as breast_cancer.csv.
+ 
+1.Download the dataset from Kaggle and save it as breast_cancer.csv.
 
-Install required libraries:
+2.Install required libraries:
 
-pip install pandas numpy matplotlib scikit-learn
+   pip install pandas numpy matplotlib scikit-learn
 
-Run the Python script:
+3.Run the Python script:
 
-python logistic_regression_task4.py
+  python logistic_regression_task4.py
 
 **What I Learned**
 
